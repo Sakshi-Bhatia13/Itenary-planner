@@ -1,0 +1,53 @@
+.plan-trip-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.plan-trip-form h2 {
+    text-align: center;
+}
+
+.plan-trip-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-trip-form label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.plan-trip-form input[type="number"],
+.plan-trip-form input[type="date"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.plan-trip-form fieldset {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.plan-trip-form legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.plan-trip-form button {
+    background-color: #5b1e5a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.plan-trip-form button:hover {
+    background-color: #815d88;
+}
