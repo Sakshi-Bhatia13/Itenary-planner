@@ -29,7 +29,7 @@ const PlanTripForm = () => {
                 <label htmlFor="destination">Destination:</label>
                 <input type="text" id="destination" required />
 
-                <label htmlFor="numberOfDays">Number of Days:</label>
+                {/* <label htmlFor="numberOfDays">Number of Days:</label>
                 <input type="number" id="numberOfDays" required />
 
                 <label htmlFor="startDate">Start Date:</label>
@@ -39,7 +39,7 @@ const PlanTripForm = () => {
                 <input type="date" id="endDate" required />
 
                 <label htmlFor="numberOfPersons">Number of Persons:</label>
-                <input type="number" id="numberOfPersons" required />
+                <input type="number" id="numberOfPersons" required /> */}
                  
                 
                 <fieldset>

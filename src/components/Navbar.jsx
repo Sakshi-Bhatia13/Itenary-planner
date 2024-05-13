@@ -3,13 +3,7 @@ import './Navbar.css';
 import PlanTripForm from './PlanTripForm';
 
 const Navbar = () => {
-    const [showForm, setShowForm] = useState(false);
-
-    const handlePlanTrip = () => {
-        setShowForm(true);
-    }
-
-    return (
+   return (
         <header>
             <div className="Navbar">
                 <nav className="navbar">
@@ -21,12 +15,8 @@ const Navbar = () => {
                         <li><a href="#about">About Us</a></li>
                         <li><a href="#services">Services</a></li>
                     </ul>
-                    <div className="create-new-trip">
-                        <button className="btn" onClick={handlePlanTrip}>Plan a New Trip</button>
-                    </div>
                 </nav>
             </div>
-            {showForm && <PlanTripForm />}
         </header>
     );
 };
